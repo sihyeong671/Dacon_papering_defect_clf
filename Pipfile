@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu117"
+verify_ssl = false
+name = "pytorch"
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+plotly = "*"
+seaborn = "*"
+opencv-python = "*"
+ipykernel = "*"
+torch = {version = "*", index = "pytorch"}
+torchvision = {version = "*", index = "pytorch"}
+lightning = "*"
+albumentations = "*"
+scikit-learn = "*"
+tqdm = "*"
+wandb = "*"
+timm = "*"
+transformers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

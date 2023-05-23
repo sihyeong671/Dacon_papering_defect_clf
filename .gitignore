@@ -1,0 +1,7 @@
+/camp
+/csv
+/ckpt
+/lightning_logs
+/wandb
+/dataset
+/__pycache__
